@@ -1,0 +1,280 @@
+*{
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+body{
+    
+    background-color: black;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_YdqgkUGdrYekdhXb0f1yRol7kxAuXEKh8qLc1i_qK1xgGAQxcx8whpaEsaqD1u-N0AR-O80uVgNgVweKQGbwed1aMmebEwHXPPCxEoktsUbTVgWeaLOgD1ikgjuKygvdCZ2lgBcfxTfUXHI0I9a11uXzp8HeCUGmfKxKyHzhCoMda4buYXNk360dgA/s1920/02052022-no-birds-v2-MINIMALIST-LANDSCAPE.png');
+    background-size: cover;
+    background-attachment: fixed;
+    gap: 1rem;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+header{
+    position: relative;
+    /*padding: 0.2rem;*/
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+.navbar{
+   
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /*background-color: antiquewhite;
+    border-style: solid;
+    border-width: auto;
+    border-color: rgb(46, 46, 46);
+    border-radius: 10px;*/
+ 
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.container1{
+    display: flex;
+    gap: 2rem;
+
+}
+
+.logobars{
+    display: none;
+}
+
+.container1 li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+    color: #ffa500;
+    
+}
+
+i:hover{
+    color: #ffa500;
+}
+
+.container2{
+    background-color: rgba(255, 255, 255, 0.52);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 2.6rem;
+    flex-wrap: wrap;
+    flex-shrink: initial;
+    flex-grow: initial;
+    gap: 2.6rem;
+}
+
+
+.container2 li{
+    background-color: white;
+    width: 55vh;
+    height: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+   
+}
+
+.container2 li div{
+    background-color: rgba(0, 0, 0, 0.457);
+    width: auto;
+    height: 55vh;
+   
+    
+}
+
+.gambar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+
+ul.container2 li div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /*display: none;*/
+    
+
+}
+
+@media  (max-width: 991px) {
+    .container1 li{
+        display: none;
+    }
+    .logobars{
+        display: block;
+    }    
+}
+
+@media  (max-width: 330px) {
+    .container1 li{
+        display: none;
+    }
+}
+
+@media (max-width: 412px) {
+    .logobars{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+}
+
+
+/*DROPDOWN MENU*/
+.dropdown{
+    background-color: rgba(0, 0, 0, 0.442);
+    width: auto;
+    backdrop-filter: blur(15px);
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    display: none;
+    
+    position: absolute;
+    top: 6rem;
+    right: 1rem
+}
+
+
+
+footer div{
+    box-sizing: border-box;
+    
+    
+}
+
+
+.footer1{
+    float: left;
+    width: 20%;
+    height: 50vh;
+    background-color: rgb(158, 158, 158); 
+   
+    
+}
+
+footer div ol li{
+    list-style-type: none;
+}
+
+.footer2{
+    float:left;
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(84, 84, 84);
+   
+}
+
+.footer3{
+    float: left;
+    width: 30%;
+    height: 50vh;
+    background-color: rgb(30, 30, 30);
+}
+
+.longimage{
+    height: fit-content;
+    width: fit-content;
+    
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.longimage img{
+    width: 120vh;
+    height:auto;
+    object-fit: contain;
+}
+
+section{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.smallparagraph{
+    display:flex ;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+/*.longimage{
+    float:left;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(84, 84, 84);
+}*/ 
+
+.shortp{
+    background-color: rgb(84, 84, 84);
+    width: 45vh;
+}
+
+.flexbox{
+    gap: 1rem;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    height: auto;
+    background-color: #ffa60068;
+}
+
+#box1{
+    flex-grow: 3;
+}
+#box2{
+    flex-grow: 2;
+}
+
+.box2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+
+.square1{
+ 
+    height: 50%;
+    width: auto;
+    background-color: rgba(15, 195, 255, 0.33);
+}
+
